@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     public Animator animator;
 
+    [SerializeField] GameObject gameOver;
+
     private Rigidbody2D birdRb;
     //public float gravityModifier = 1.0f;
     public float jumpForce = 10.0f;
@@ -52,7 +54,7 @@ public class PlayerController : MonoBehaviour
 
         if(health == 0)
         {
-            SceneManager.LoadScene("GameOver");
+            gameOver.SetActive(true);
         }
     }
 }
