@@ -5,6 +5,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject[] obstaclePattern;
+    public GameObject floatingHealth;
 
     private PlayerController playerController;
 
@@ -13,9 +14,11 @@ public class Spawner : MonoBehaviour
     public float decreaseTime;
     public float minTime = 0.65f;
 
+
     // Start is called before the first frame update
     void Start()
     {
+        InvokeRepeating("SpawnHealth", 10f, 10f);
         playerController = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
@@ -42,5 +45,10 @@ public class Spawner : MonoBehaviour
         {
             timeBtwSpawn = 10;
         }
+    }
+
+    private void SpawnHealth()
+    {
+        Instantiate(floatingHealth, transform.position, Quaternion.identity);
     }
 }

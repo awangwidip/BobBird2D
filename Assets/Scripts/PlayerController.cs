@@ -44,6 +44,12 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.CompareTag("1Up") && health < 3)
+        {
+            health += 1;
+            Destroy(other.gameObject);
+        }
+
         if(health == 0)
         {
             SceneManager.LoadScene("GameOver");
