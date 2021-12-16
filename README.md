@@ -1,7 +1,7 @@
 # BOB THE LITTLE BIRD
  By: Awang Widi P, Muhammad Raihan, Ghiffari Imam W
  
- # Story
+ ## Story
  
  
  # Gameplay
