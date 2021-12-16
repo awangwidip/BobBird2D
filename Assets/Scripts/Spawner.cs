@@ -44,6 +44,7 @@ public class Spawner : MonoBehaviour
         if(playerController.health <= 0)
         {
             timeBtwSpawn = 10;
+            CancelInvoke("SpawnHealth");
         }
     }
 
