@@ -1,7 +1,7 @@
 # BOB THE LITTLE BIRD 
  By: Awang Widi Pratama, Muhammad Raihan, Ghiffari Imam Wicaksono
 
- ## Background Story
+ ## Story
  Bob merupakan seekor burung kecil yang merindukan neneknya.
  Suatu ketika, Bob memutuskan untuk pergi mengunjungi neneknya.
  Selama di perjalanan, Bob harus melewati berbagai macam rintangan
