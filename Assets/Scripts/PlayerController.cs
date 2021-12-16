@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
             delay = Time.time + 1.0f;
             Instantiate(birdShoot, transform.position, birdShoot.transform.rotation);
         }
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
             birdRb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse); 
 
