@@ -1,5 +1,5 @@
 # BOB THE LITTLE BIRD 
- By: Awang Widi P, Muhammad Raihan, Ghiffari Imam W
+ By: Awang Widi Pratama, Muhammad Raihan, Ghiffari Imam Wicaksono
  
  ## Background Story
  Bob merupakan seekor burung kecil yang merindukan neneknya.
